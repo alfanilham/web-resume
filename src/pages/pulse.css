@@ -1,0 +1,27 @@
+.live {
+  height: 28px;
+  width: 28px;
+  display: block;
+  border-radius: 50%;
+  background-color: #428df5;
+  animation: pulse 1100ms infinite;
+  z-index: 100;
+}
+
+.circle {
+  height: 28px;
+  width: 28px;
+  display: block;
+  border-radius: 50%;
+  background-color: #428df5;
+  z-index: 100;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: #428df5 0 0 0 0;
+  }
+  75% {
+    box-shadow: #ff69b400 0 0 0 13px;
+  }
+}
