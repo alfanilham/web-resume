@@ -61,7 +61,7 @@ Contributions are welcome! Please contact me
 
 ### Thanks and Support
 
-[Fandi](https://github.com/irfnd) for desgin idea
+[Fandi](https://github.com/irfnd) for design idea
 
 # Acknowledgments
 
