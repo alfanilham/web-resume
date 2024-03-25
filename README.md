@@ -1,6 +1,6 @@
 # Web Resume
 
-![Alt text](https://raw.githubusercontent.com/alfanilham/web-resume/src/assets/feature.png)
+![Alt text](https://raw.githubusercontent.com/alfanilham/web-resume/main/src/assets/feature.png?token=GHSAT0AAAAAACQAU6SYTIF2ZKUHDAFGKSV2ZQBLGWQ)
 Digital version of a resume containing your experience, skills, education and achievements.
 
 ## Features
