@@ -15,6 +15,7 @@ import {
   Mail,
   Linkedin,
   Instagram,
+  Github,
   Download,
   Building,
   MapPin,
@@ -110,6 +111,12 @@ export default function Leaderboard() {
                     target="_blank"
                   >
                     <Linkedin size={40} />{" "}
+                    {/* <Text display={{ base: "none", lg: "block" }}>
+                        alfan-ilham-wahyudi
+                      </Text> */}
+                  </Link>
+                  <Link to="https://github.com/alfanilham" target="_blank">
+                    <Github size={40} />{" "}
                     {/* <Text display={{ base: "none", lg: "block" }}>
                         alfan-ilham-wahyudi
                       </Text> */}
@@ -1031,9 +1038,11 @@ export default function Leaderboard() {
           </Flex>
         </Flex>
         <Flex align="center" justify="center" mt={4} mb={{ base: 4, md: -4 }}>
-          <Text align="center">
-            {new Date().getFullYear()}© Alfan Ilham Wahyudi
-          </Text>
+          <Link to="https://github.com/alfanilham/web-resume" target="_blank">
+            <Text align="center">
+              {new Date().getFullYear()}© Alfan Ilham Wahyudi
+            </Text>
+          </Link>
         </Flex>
       </Flex>
     </Flex>
